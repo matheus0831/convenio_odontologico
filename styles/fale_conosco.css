@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&display=swap');
+@font-face{
+    font-family: "bebas";
+    src: url("../BebasNeue-Regular.ttf");
+}
+/* --------- RESET PADRÃO --------- */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* --------- CONTEINER --------- */
+.container{
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+.conteiner_pag3{
+    width: 100%;
+    margin-top: 75px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.fundo{
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+.fundo .container{
+    padding-bottom: 13px;
+    background-color: rgba(248, 248, 255, 1);
+}
+/* --------- NAVBAR --------- */
+nav{
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(160, 187, 250, 1);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: fixed;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.356);
+    font-family: bebas;
+}
+/* --------- SEÇÃO PRINCIPAL --------- */
+section{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+/* --------- RODAPÉ --------- */
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(160, 187, 250, 1);
+    border-radius: 5px;
+}
+/* --------- TRASIÇÃO NAV --------- */
+nav a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+nav a:hover{
+    color: white;
+}
+/* --------- RODAPÉ ( TEXTOS / IMAGEM ) --------- */
+.imagem_rodape{
+    width: 20%;
+    height: 100px;
+}
+.img_rodape{
+    display: flex;
+    justify-content: right;
+    text-align: center;
+}
+.text_rodape{
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    flex-direction: column;
+    margin: 0 auto;
+}
+/* --------- LOGO --------- */
+.red{
+    color: red;
+}
+.dent{
+    font-size: 32px;
+    margin-right: 60%;
+}
+/* --------- Página 03 --------- */
+.titulo_pag3 h2{
+    margin-top: 15px;
+}
+/* --------- INPUTS ( NOME/E-MAIL ) --------- */
+.nome_email{
+    width: 500px;
+    height: 35px;
+    padding-left: 10px;
+    border: solid rgba(0, 0, 0, 0.323);
+}
+/* --------- INPUT ( MENSAGEM ) --------- */
+.inputs{
+    width: 49%;
+    height: 150px;
+}
+.inputs input{
+    width: 100%;
+    height: 35px;
+    padding-left: 10px;
+    border: solid rgba(0, 0, 0, 0.323);
+}
+.mensagem{
+    width: 100%;
+}
+.mensagem input{
+    width: 100%;
+    height: 250px;
+    padding-bottom: 20%;
+    text-align: justify;
+    border: solid rgba(0, 0, 0, 0.323);
+}
+/* --------- CONTATOS --------- */
+.contatos{
+    width: 100%;
+    height: 350px;
+    align-items: center;
+}
+.contatos h3{
+    margin-bottom: 30px;
+}
+.contatos img{
+    width: 45px;
+    padding-right: 15px;
+}
+/* --------- BOTÃO DE ENVIO --------- */
+.btn_enviar{
+    margin-top: 15px;
+    width: 150px;
+    height: 45px;
+    background-color: rgba(255, 0, 0, 0.645);
+    border: solid;
+    border-radius: 5px;
+}
+.buttom a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    font-family: bebas;
+    transition: 0.5s;
+}
+.buttom a:hover{
+    color: white;
+    transition: 0.5s;
+}

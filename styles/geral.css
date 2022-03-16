@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&display=swap');
+@font-face{
+    font-family: "bebas";
+    src: url("../BebasNeue-Regular.ttf");
+}
+/* --------- RESET PADRÃO --------- */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* --------- CONTEINER --------- */
+.container{
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+.fundo{
+    width: 90%;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: rgba(248, 248, 255, 1); ;
+}
+/* --------- NAVBAR --------- */
+nav{
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #a0bbfa;
+    font-family: bebas;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: fixed;
+    box-shadow: 1px 1px 10px #0000005b;
+}
+/* --------- RODAPÉ --------- */
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #a0bbfa;
+    border-radius: 5px;
+}
+/* --------- RODAPÉ ( TEXTOS / IMAGEM ) --------- */
+.img_rodape{
+    display: flex;
+    justify-content: right;
+    text-align: center;
+}
+.text_rodape{
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.imagem_rodape{
+    width: 20%;
+    height: 100px;
+}
+/* --------- IMAGEM DA ESPECIALIDADE --------- */
+img{
+    width: 20%;
+    height: 100px;
+}
+/* --------- BOTÃO ( "ADICIONAR..." ) --------- */
+a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: white;
+    transition: 0.4s;
+}
+/* --------- LOGO --------- */
+.red{
+    color: red;
+}
+.dent{
+    font-size: 32px;
+    margin-right: 1000px;
+    font-family: bebas;
+}
+/* --------- NOME PRINCIPAL DAS ESPEC. --------- */
+.nome_principal{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 25px;
+    font-size: 58px;
+    color: #000;
+    padding-top: 80px;
+}
+/* --------- DESCRIÇÃO DA ESPEC. --------- */
+.descricao{
+    margin-left: 48%;
+    margin-top: -350px;
+    width: 50%;
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 22px;
+    float: left;
+}
+/* --------- IMAGEM DA SEÇÃO --------- */
+section img{
+    margin-left: 20px;
+    top: 20px;
+    width: 450px;
+    height: 350px;
+}
+/* --------- IMAGENS DIFERENTES --------- */
+.img_diferente_periodontia{
+    margin-left: 20px;
+    top: 20px;
+    width: 350px;
+    height: 350px;
+}
+.img_diferente_periodontia img{
+    object-fit: contain;
+    width: 350px;
+    height: 150px;
+}
+/* --------- OBJETIVO DA FUNCIO. --------- */
+.afazeres{
+    width: 90%;
+    background: #DFF1F2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 30px;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    margin: 0 auto;
+    margin-top: 10 auto;
+    clear: left;
+}
+.desc_afazeres{
+    text-align: justify;
+    font-size: 34;
+}
+.desc_afazeres p{
+    font-size: 24px;
+    padding: 5px;
+}
+h1{
+    font-family:  bebas;
+    font-size: 34px;
+    line-height: 36px;
+    text-align: center;
+    padding-bottom: 15px;
+}
+/* --------- BOTÃO ( "ADICIONAR..." ) --------- */
+.buttom{
+    width: 95%;
+    height: 60px;
+    background: #95EBFC;
+    font-family: bebas;
+    font-size: 48px;
+    color: #000;
+    justify-content: center;
+    text-align: center;
+    margin-top: 150px !important; 
+    margin: 0 auto;        
+}

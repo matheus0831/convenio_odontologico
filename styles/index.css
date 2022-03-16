@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&display=swap');
+@font-face{
+    font-family: "bebas";
+    src: url("../BebasNeue-Regular.ttf");
+}
+/* --------- RESET PADRÃO --------- */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/* --------- CONTEINER --------- */
+.container{
+    width: 100%;
+    max-width: 1120px;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+.fundo{ /* FUNDO */
+    width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+}
+.fundo .container{
+    padding-bottom: 13px;
+    background-color: rgba(248, 248, 255, 1);
+}
+/* --------- NAVBAR --------- */
+nav{
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(160, 187, 250, 1);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: fixed;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.356);
+    font-family: bebas;
+}
+/* --------- SEÇÃO PRINCIPAL --------- */
+section{
+    width: 100%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+/* --------- RODAPÉ --------- */
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgba(160, 187, 250, 1);
+    border-radius: 5px;
+}
+/* --------- RODAPÉ ( TEXTOS / IMAGEM ) --------- */
+.imagem_rodape{
+    width: 20%;
+    height: 100px;
+}
+.img_rodape{
+    display: flex;
+    justify-content: right;
+    text-align: center;
+}
+.text_rodape{
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    flex-direction: column;
+    margin: 0 auto;
+}
+/* --------- TRASIÇÃO NAV --------- */
+nav a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+nav a:hover{
+    color: white;
+    transition: 0.5;
+}
+/* --------- PLANOS --------- */
+.promo_center{
+    width: 100%;
+    text-align: center;
+    display: flex;   
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    gap: 18px;
+}
+.promo_center a{
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+/* --------- HOVER DOS PLANOS --------- */
+.promo_center a:hover{
+    color: white;
+}
+.promo_center a:hover[class="nome_planos"]{
+    color: rgb(79, 194, 233);
+}
+.promo_center a:hover[class="nome_planos_2"]{
+    color: blue;
+}
+.promo_center a:hover[class="nome_planos_3"]{
+    color: white;
+}
+.nome_planos{
+    font-size: 32px;
+}
+.imagem_planos{
+    width: 250px;
+    height: 250px;
+}
+/* --------- POST IT PLANOS --------- */
+.planos1{
+    width: 342px;
+    height: 550px;
+    margin-top: 75px;
+    border-radius: 5px;
+    padding-top: 15px;
+    background-color: rgba(223, 241, 242, 1);
+}
+.valor{
+    padding-top: 25px;
+    font-size: 24px;
+    font-weight: bold;
+}
+.quantidade{
+    font-size: 48px;
+}
+.planos2{
+    width: 342px;
+    height: 550px;
+    margin-top: 75px;
+    padding-top: 15px;
+    margin-bottom: 50px;
+    border-radius: 5px;
+    background-color: rgba(223, 241, 242, 1);
+}
+.planos3{
+    width: 342px;
+    height: 550px;
+    margin-top: 75px;
+    border-radius: 5px;
+    padding-top: 15px;
+    background-color: rgba(223, 241, 242, 1);
+}
+/* --------- BOTÃO ( "QUERO ESSE" )--------- */
+.escolha{
+    background-color: rgba(160, 187, 250, 1);
+    display: inline-block;
+    width: 70%;
+    border-radius: 15px;
+}
+/* --------- LOGO --------- */
+.red{
+    color: red;
+}
+.dent{
+    font-size: 32px;
+    margin-right: 60%;
+}
+/* --------- IMAGEM / TEXTOS PRINCIPAIS --------- */
+.text{
+    width: 100%;
+    font-size: 24px;
+    margin: 0 auto;
+    padding-top: 50px;
+}
+.imagem_garota_centro{
+    width: 100%;
+    height: 451px;
+    margin: 0 auto;  
+    margin-top: 50px;
+}
+.imagem_garota{
+    width: 100%;
+    height: 450px;
+}
+.titulo{
+    font-weight: bold;
+    font-size: 32px;
+    text-align: center;
+}
+.text_imagem{
+    margin-left: 15%;
+    position: absolute;
+    margin-bottom: 300px;
+}
+/* --------- ESPECIALIDADES --------- */
+.main_especialidades{
+    width: 100%;
+    height: 250px;
+    padding: 20px 46px;
+    background-color: rgba(223, 241, 242, 1);
+    margin: 0 auto;
+    border-radius: 5px;
+}
+.main_especialidades img{
+    width: 100%;
+    object-fit: contain;
+    place-self: center;
+}
+.img_especialidade{
+    padding-top: 25px;
+    display: grid;
+    grid-template-columns: repeat(5,1fr); /* --------- GRID QUE DIVIDE EM ( 5 ) --------- */
+    gap: 5px;
+    align-content: center;
+}
+.main_especialidades h1{
+    text-align: center;
+}
+.text_especialidades{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    place-self: center;
+}
+/* --------- SELECIONA A SEGUNDA IMAGEM SOMENTE --------- */
+.main_especialidades .img_especialidade:nth-child(2) img{ 
+    width: 150px;
+    height: 100px;
+    align-items: center;
+}
+h3 a{
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+h3 a:hover{
+    color: rgba(160, 187, 250, 1);
+}
+/* --------- Página 02 --------- */
+.titulo_pag2 h2{
+    margin-top: 75px;
+}
+/* --------- ESPECIALIDADES PÁGINA 02 --------- */
+.especialidades_geral{
+    width: 300px;
+    height: 300px;
+    margin-top: 75px;
+    border-radius: 5px;
+    padding-top: 15px;
+    background-color: rgba(223, 241, 242, 1);
+}
+.img_espec{
+    width: 250px;
+    height: 150px;
+    object-fit: contain; /* faz a imagem se encaixar a imagem no espaço que você determinou */
+    display: block;
+    margin: 0 auto; 
+}
+.img_espec_radio{
+    width: 350px;
+    height: 300px;
+}
+
+.explicacao{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+/* --------- Página 03 --------- */
+
+.titulo_pag3 h2{
+    margin-top: 75px;
+    text-align: justify;
+}
